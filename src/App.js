@@ -3,8 +3,8 @@ import "./App.css"
 // Import React
 import React, { useState } from 'react'
 // Import ColorBlock
-import ColorBlock from './ColorBlock'
-import ColorForm from './ColorForm'
+import ColorBlock from './components/ColorBlock'
+import ColorForm from './components/ColorForm'
 
 function App(){
     let [colors, setColors] = useState([
