@@ -20,12 +20,12 @@ function App(){
     
     let colorMap = colors.map((color, i) => {
         return (
-            <ColorBlock color={color} />
+            <ColorBlock color={color} key={i} />
         )
     });
 
     const addColor = (newColor) => {
-      setColors([colors,newColor])
+      setColors([...colors,newColor])
     };
 
     return (
